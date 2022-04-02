@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<!-- Header block -->
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+    <svg class="bi me-2" width="40" height="32">
+      <use xlink:href="#bootstrap"></use>
+    </svg>
+    <span class="fs-4">Registration</span>
+  </a>
+</header>
+
+<body>
+  <section class="vh-100 bg-image" style="background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.wep');">
+    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+      <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+            <div class="card" style="border-radius: 15px;">
+              <div class="card-body p-5">
+                <h2 class="text-uppercase text-center mb-5">New User Sign Up</h2>
+
+                <form class="row g-3">
+                  <div class="col-md-6">
+                    <label for="inputName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="inputName">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputLastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="inputLastName">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="birthday" class="form-label">Birthday:</label>
+                    <input type="date" class="form-control" id="birthday">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="username">
+                  </div>
+                  <div class="col-md-12">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <!-- <button type="button" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Login</button> -->
+                    <button type="submit" class="btn btn-primary">Register</button>
+                  </div>
+                  <p class="text-center text-muted mt-5 mb-0">Already have an account? <a href="index.php" class="fw-bold text-body"><u>Sign in</u></a></p>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
